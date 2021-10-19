@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group_1">
+        <item
+            android:id="@+id/test1"
+            android:checkable="false"
+            android:title="홈"
+            android:icon="@drawable/ic_baseline_home_24"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/test2"
+            android:checkable="false"
+            android:title="즐겨찾기"
+            android:icon="@drawable/ic_baseline_star_border_24"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/test3"
+            android:checkable="false"
+            android:title="테스트3"
+            app:showAsAction="collapseActionView" />
+
+    </group>
+</menu>
